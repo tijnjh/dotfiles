@@ -1,0 +1,38 @@
+{
+  "icon_theme": "Monospace Icon Theme - Dark",
+  "theme": "One Dark - Darkened",
+  "buffer_font_family": "Liga SFMono Nerd Font",
+
+  "features": {
+    "edit_prediction_provider": "none"
+  },
+  "agent": {
+    "enabled": false,
+    "version": "2"
+  },
+
+  "diagnostics": {
+    "inline": {
+      "enabled": true
+    }
+  },
+  "tabs": {
+    "file_icons": true,
+    "git_status": true,
+    "show_diagnostics": "all"
+  },
+  "buffer_font_size": 13,
+  "terminal": {
+    "toolbar": {
+      "breadcrumbs": false
+    },
+    "cursor_shape": "underline"
+  },
+  "inlay_hints": {
+    "enabled": true,
+    "show_value_hints": false,
+    "show_other_hints": false,
+    "show_type_hints": false,
+    "show_parameter_hints": true
+  }
+}

@@ -1,0 +1,23 @@
+[credential "https://github.com"]
+	helper = 
+	helper = !/usr/bin/gh auth git-credential
+
+[credential "https://gist.github.com"]
+	helper = 
+	helper = !/usr/bin/gh auth git-credential
+
+[user]
+	name = tijn
+	email = tijn@tijn.dev
+
+[credential]
+	helper = store
+	
+[alias]
+    diff-no-lock = diff -- . ':!:yarn.lock' ':!:package-lock.json' ':!:pnpm-lock.yaml' ':!:bun.lockb'
+
+[init]
+	defaultBranch = main
+	
+[push]
+	autoSetupRemote = true

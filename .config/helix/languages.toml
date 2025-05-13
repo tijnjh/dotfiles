@@ -1,0 +1,7 @@
+[[language]]
+name = "svelte"
+language-servers =  [ "svelteserver" ]
+
+[[language]]
+name = "typescript"
+language-servers = [ "typescript-language-server", "eslint", "emmet-ls" ]

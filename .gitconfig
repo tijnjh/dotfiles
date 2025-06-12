@@ -15,6 +15,8 @@
 	
 [alias]
     diff-no-lock = diff -- . ':!:yarn.lock' ':!:package-lock.json' ':!:pnpm-lock.yaml' ':!:bun.lockb'
+	purge = !git reset --hard && git clean -fdx
+	c = !git-c
 
 [init]
 	defaultBranch = main
